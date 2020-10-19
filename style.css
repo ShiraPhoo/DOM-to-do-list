@@ -1,0 +1,158 @@
+html {
+  /* background-image: -webkit-linear-gradient(65deg, #a683e3 50%, #e4e9fd 50%); */
+  background-color: #7ebdb4;
+  min-height: 500px;
+  font-family: "helvetica neue";
+}
+
+h1 {
+  color: #fff;
+  padding: 10px;
+}
+
+.box {
+  max-width: 500px;
+  margin: 50px auto;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+#heading {
+  background-color: #f4a548;
+  text-align: center;
+}
+.alertDiv {
+  background-color: #f1d4d4;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  max-width: 500px;
+  margin: 0px auto;
+  display: none;
+}
+p.alert {
+  text-align: center;
+  margin-left: 80px;
+}
+.alert-danger {
+  color: #c62a88;
+}
+.alert-success {
+  color: #f4a548;
+}
+.clearDiv {
+  text-align: center;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  display: flex;
+}
+.clear-btn {
+  margin-left: 60px;
+}
+
+.itemDiv {
+  background-color: #fff;
+}
+.item {
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.item:last-child {
+  border-bottom: 0;
+}
+
+input:checked + p {
+  text-decoration: line-through;
+  text-decoration-color: #f4a548;
+}
+
+input[type="checkbox"] {
+  margin: 20px;
+}
+
+p {
+  margin: 0;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 200;
+  color: #00204a;
+  width: 300px;
+}
+
+form {
+  text-align: center;
+  margin-left: 20px;
+}
+
+button {
+  min-height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: #f4a548;
+  color: #fff;
+  font-size: 30px;
+  border-width: 0;
+  cursor: pointer;
+  position: relative;
+}
+
+button:focus {
+  outline: none;
+}
+
+button.edit-btn {
+  font-size: 17px;
+  background: none;
+  color: #03c4a1;
+}
+.vl {
+  border-left: 3px solid #f4a548;
+  height: 30px;
+  position: absolute;
+  left: 50%;
+  margin-left: 24px;
+  top: 10px;
+}
+button.delete-btn {
+  font-size: 17px;
+  background: none;
+  color: #c62a88;
+}
+button.clear-btn {
+  font-size: 17px;
+  background: none;
+  color: #c62a88;
+  margin-left: 25px;
+}
+input[type="text"] {
+  text-align: center;
+  height: 60px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 200;
+  width: 400px;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  box-shadow: inset 0 -3px 0 0 #f4a548;
+}
+
+::placeholder {
+  color: grey;
+  opacity: 1;
+}
+
+footer {
+  color: white;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
