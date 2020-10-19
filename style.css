@@ -156,3 +156,21 @@ footer {
   color: rgba(0, 0, 0, 0.5);
   text-align: center;
 }
+
+@media screen and (max-width: 500px) {
+  .box {
+    max-width: 400px;
+  }
+  .vl {
+    margin-left: 25px;
+  }
+  input[type="text"] {
+    width: 270px;
+  }
+  p {
+    width: 175px;
+  }
+  p.alert {
+    font-size: 18px;
+  }
+}
